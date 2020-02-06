@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="Unit Test Report" tests="2" errors="1" failures="0" time="0:00:16.559000"><testcase classname="SmokeTests" name="test_100_Start_Browser" time="6.796"><system-out><![CDATA[
+XXXXXXXXX Test started XXXXXXXXX
+]]></system-out><success type="test_100_Start_Browser"><![CDATA[test_100_Start_Browser (__main__.SmokeTests)]]></success></testcase><testcase classname="SmokeTests" name="test_200_Form_Login" time="9.757"><system-out><![CDATA[
+XXXXXXXXX Test started XXXXXXXXX
+]]></system-out><error type="exceptions.AttributeError"><![CDATA[Traceback (most recent call last):
+  File "C:\Users\vkotenko\AppData\Roaming\Sikulix\Lib\unittest\case.py", line 332, in run
+    testMethod()
+  File "C:\Users\vkotenko\Desktop\PythonCourse\Sikuli_all\mini-framework\Tests\smoke_tests.sikuli\smoke_tests.py", line 18, in test_200_Form_Login
+    Form_Login_UI.ClickButton()
+  File "C:\Users\vkotenko\Desktop\PythonCourse\Sikuli_all\mini-framework\Tests\_lib.sikuli\_lib.py", line 44, in ClickButton
+    click(Form_Login_UI.btn_Reload_Page)
+AttributeError: type object 'Form_Login_UI' has no attribute 'btn_Reload_Page']]></error></testcase><system-out><![CDATA[]]></system-out><system-err><![CDATA[]]></system-err></testsuite>
